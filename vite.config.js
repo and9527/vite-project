@@ -14,7 +14,7 @@ export default defineConfig(({ command, mode }) => {
 				'@': fileURLToPath(new URL('./src', import.meta.url)),
 			},
 		},
-		base: isBuild ? '/demoViewer/' : '/',
+		base: isBuild ? '/' : '/',
 		server: {
 			host: true,
 			port: env.VITE_PORT,
