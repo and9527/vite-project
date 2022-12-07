@@ -10,12 +10,12 @@ export const product = {
 		    spec: {
 		      id: 130,
 		      matrix: {
-			"0": 1,
-			"1": 0,
-			"2": 0,
-			"3": 1,
-			"4": 0,
-			"5": 0
+			0: 1,
+			1: 0,
+			2: 0,
+			3: 1,
+			4: 0,
+			5: 0
 		      },
 		      type: "Polygon",
 		      points: [
@@ -37,7 +37,42 @@ export const product = {
 			}
 		      ]
 		    }
-		  },		
+		  },	
+		  {
+		    id: 2,
+		    productName: "Handcrafted Fresh Hat",
+		    uuid: "d465f47a-67f7-4a10-b23c-1c80c8745f24",
+		    spec: {
+		      id: 140,
+		      matrix: {
+			0: 1,
+			1: 0,
+			2: 0,
+			3: 1,
+			4: 0,
+			5: 0
+		      },
+		      type: "Polygon",
+		      points: [
+			{
+			  x: 40,
+			  y: 100
+			},
+			{
+			  x: 240,
+			  y: 400
+			},
+			{
+			  x: 400,
+			  y: 360
+			},
+			{
+			  x: 60,
+			  y: 10
+			}
+		      ]
+		    }
+		  }			
 		],
 	},
 	mutations: {
